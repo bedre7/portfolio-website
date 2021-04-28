@@ -1,4 +1,4 @@
-# Personal website project
+# Personal Website Project
 Personal website project
 Website Project
 

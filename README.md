@@ -59,7 +59,7 @@ o	My favorite sports list will also be part of this page.
 Finally, a form will be displayed that is more like a survey, a series of questions will be asked and will be submitted to another page to display the user’s input(answer)
 
         
-      This is a brief overview of what I think I will be able to do in the next few weeks, of course there will be an update and changes, but for now this is how it will look like in a nutshell.
+             ** This is a brief overview of what I think I will be able to do in the next few weeks, of course there will be an update and changes, but for now this is how it will look like in a nutshell.**
 
 
 

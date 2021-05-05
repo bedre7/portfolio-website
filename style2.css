@@ -1,0 +1,263 @@
+/*
+    Orange color: #e67e22
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Pacifico&display=swap');
+
+/*---------------------------------------------------*/
+/* BASIC SETUP */
+/*---------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site-wrap {overflow-x:hidden}
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ffffff;
+    color: #fff;
+    font-family: 'lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size : 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*---------------------------------------------------*/
+/* RESPONSIVE NAVBAR */
+/*---------------------------------------------------*/
+.brand-title{
+    font-family: 'Niconne';
+    color: #fd7474;
+}
+.navibar{
+    top: 0;
+    width: 100%;
+    height:50px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.brand-title p{
+    font-size: 4rem;
+    width: 100%;
+    height: 100%;
+    margin-left: 75%;
+    
+}
+.navibar-links{
+    margin-right: 4%;
+}
+.navibar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navibar-links ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+.navibar-links li a{
+    text-decoration: none;
+    color:white;
+    padding: 1.6rem;
+    display: block;
+   
+}
+
+.navibar-links li a::after{
+    position: fixed;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: #fd7474;
+    bottom: -1px;
+    left: 0;
+    border-radius: 5px;
+    z-index: -1;
+    transition: background linear 0.2s;
+}
+
+.navibar-links li a:hover::after{
+    width: 100%;
+}
+.navibar-links li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s, transform 0.5s;
+    transform: scale(1.08);
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media(max-width: 600px){
+    .toggle-button{
+        display: flex;
+    }
+    .navibar-links{
+        display: none;
+        width: 100%;
+    }
+    .navibar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navibar-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navibar-links li{
+        text-align: center;
+    }
+    .navibar-links li a{
+        padding: .5rem 1rem;
+    }
+    .navibar-links.active{
+        display: flex;
+    }
+} 
+/*---------------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*---------------------------------------------------*/
+
+
+section{/*whitespace*/
+    padding:80px 0;
+}
+
+
+/*---------------------------------------------------*/
+/* HEADINGS */
+/*---------------------------------------------------*/
+.welcome{
+    transform: translate(15%, 150%);
+    color: #fff;
+}
+
+.welcome a{
+    border-radius: 30px;
+    margin: 1.5% 1rem;
+}
+/*---------------------------------------------------*/
+/* BUTTONS */
+/*---------------------------------------------------*/
+
+
+
+/*---------------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(img/Mesob.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/*---------------------------------------------------*/
+/* FOOTER */
+/*---------------------------------------------------*/
+
+.social a{
+    font-size: 3.5em;
+    padding: 2rem;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-instagram{
+    color: RGB(193,53,132);
+}
+.fa-telegram{
+    color:#0088cc;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-telegram:hover,
+.fa-twitter:hover{
+    color: #d5d5d5;
+    transition: color 0.5s;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
+
+footer h1{
+    color:cyan;
+    float: left;
+    margin: 0 2rem;
+}
+
+.copyright{
+    text-align: center;
+}
+.fa-map-marker-alt, .fa-mobile-alt, .fa-envelope {
+    color: #fd7474;
+    font-size: 3rem;
+    transform: translate(-5%, 35%);
+}
+.fa-map-marker-alt{
+    transform: translateX(-75%);
+}
+.fa-mobile-alt{
+    transform: translate(-60%, 30%);
+}
+.fa-envelope{
+    transform: translate(0, 55%);
+}
+footer span{
+    margin: .5rem;
+    width: 100%;
+    height: 100%;
+    
+}
+
+

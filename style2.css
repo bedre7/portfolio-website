@@ -109,7 +109,7 @@ html, body {
 .navibar-links li:hover{
     background-color: rgba(0, 0, 0, 0.3);
     transition: background-color 0.2s, transform 0.5s;
-    transform: scale(1.08);
+    transform: scale(1.02);
 }
 
 .toggle-button{
@@ -188,10 +188,9 @@ section{/*whitespace*/
 /*---------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(img/Mesob.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(img/keyboard.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     height: 100vh;
 }
 

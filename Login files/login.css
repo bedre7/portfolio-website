@@ -112,3 +112,9 @@ input[type = "submit"]:hover{
     border-color: #2691d9;
     transition: 0.5s;
 }
+
+.msg{
+    font-size: large;
+    color: tomato;
+    margin-top: 0;
+}

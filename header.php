@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <link rel = stylesheet type = "text/css" href = "../style2.css">
+        <link rel = stylesheet type = "text/css" href = "style.css">
         <link rel = stylesheet type = "text/css" href = "Vendors/CSS/ionicons.min.css">
         <script src = script.js defer> </script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">

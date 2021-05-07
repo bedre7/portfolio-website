@@ -1,6 +1,5 @@
 <?php include_once '../header.php'; 
-
-?>
+include_once 'process.php'; ?>
 <style>
     <?php include_once 'login.css';
  ?>
@@ -8,6 +7,7 @@
 
 <?php
 
+/*
 $host = "localhost";
 $user = "root";
 $password = "";
@@ -35,11 +35,8 @@ if(isset($_POST['user'])){
         exit();
     }
 }
-
+*/
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -52,7 +49,7 @@ if(isset($_POST['user'])){
 <body>
     <div class = "container-fluid center">
         <h1>Login</h1>
-        <form action="" method = "POST" autocomplete ="off">
+        <form action="process.php" method = "POST" autocomplete ="off">
             <div class = "txt_field">
                 <input type="text" id = "user" name = "user" required />
                 <span></span>
@@ -62,16 +59,18 @@ if(isset($_POST['user'])){
                <input type="password" id = "pass" name = "pass" required>
                <span></span>
                <label for="">Password </label>
+               
             </div>
-            <div class="pass">Forgot Paassword?</div>
-        
-            
-                <input type="submit" id = "btn" value = "Login">
+            <div class="pass">Forgot Password?
+            <input type="submit" id = "btn" value = "Login">
+            <span class = "msg"><?php echo $incorrect; ?></span>
+            </div>
+                
             
         </form>
 
 
-     </div>
+    </div>
 
     
 </body>

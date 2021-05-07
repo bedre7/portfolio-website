@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
 /*---------------------------------------------------*/
 /* BASIC SETUP */
 /*---------------------------------------------------*/
@@ -178,22 +178,125 @@ section{/*whitespace*/
     margin: 1.5% 1rem;
 }
 /*---------------------------------------------------*/
-/* BUTTONS */
+/* ABOUT_ME */
 /*---------------------------------------------------*/
 
+.about-me .row{
+    width: 100%;
+    padding: 0 15%;
+}
 
+.about-me .heading{
+    text-align: center;
+    font-family: 'Lato';
+    text-transform: uppercase;
+}
 
+.about-me h1:after{
+    display: block;
+    height: 2px;
+    background-color: #fd7474;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 65px;
+}
+
+.about-me .essay{
+    padding-left: 50px;
+}
+/********** CAROUSEL *********/
+.about-me img{
+    width: 100%;
+    height: 100%;
+}
+.vl {
+    border-left: 4px solid gray;
+    height: 100;
+    position: absolute;
+    left: 5%;      
+    top: 0;
+  }
 /*---------------------------------------------------*/
 /* HEADER */
 /*---------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(img/keyboard.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(../img/keyboard.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
+/*---------------------------------------------------*/
+/* RESUME */
+/*---------------------------------------------------*/
+
+.resume .center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background: rgb(216, 214, 214);
+    border-radius: 10px;
+    height: 92%;
+    font-family: montserrat;
+    font-weight: 500;
+}
+
+.resume{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(../img/bg_resume.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.resume h1{
+    margin: 25px;
+    font-weight: 700;
+    color: #68b2a6;
+}
+.resume .intro{
+    margin-bottom: 25px;
+}
+.resume p{
+text-indent: 25px;
+}
+.achieve{
+    text-indent: 25px;
+}
+.education ul {
+    list-style: none;
+    margin-left: 30px;
+    list-style-position: outside;
+}
+/*                   SKILLS                  */
+
+.containers{
+    width: 100%;
+    background-color: rgb(175, 171, 171);
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 5;
+    color: white;
+  }
+  
+  .html {width: 80%; background-color: orange;}
+  .Cpp {width: 75%; background-color: #04AA6D;}
+  .css {width: 65%; background-color: #2196F3;}
+  .Csharp {width: 70%; background-color: #f44336;}
+  .php {width: 50%; background-color: #808080;}
+
+  .skillcol{
+      margin-left: 25px;
+ 
+  }
 /*---------------------------------------------------*/
 /* FOOTER */
 /*---------------------------------------------------*/
@@ -226,7 +329,8 @@ header {
 footer{
     background-color: #3f3f3f;
     color: #d5d5d5;
-    padding-top: 1rem;
+    padding-top: 0rem;
+    
 }
 
 footer h1{
@@ -238,6 +342,7 @@ footer h1{
 .copyright{
     text-align: center;
 }
+
 .fa-map-marker-alt, .fa-mobile-alt, .fa-envelope {
     color: #fd7474;
     font-size: 3rem;
@@ -255,8 +360,7 @@ footer h1{
 footer span{
     margin: .5rem;
     width: 100%;
-    height: 100%;
-    
+    height: 75%;
 }
 
 

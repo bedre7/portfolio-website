@@ -1,0 +1,72 @@
+/*---------------------------------------------------*/
+/* RESUME */
+/*---------------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.resume .center{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background: rgb(216, 214, 214);
+    border-radius: 10px;
+    height: 92%;
+    font-family: montserrat;
+    font-weight: 500;
+}
+
+.resume{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(../img/bg_resume.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.resume h1{
+    margin: 25px;
+    font-weight: 700;
+    color: #68b2a6;
+}
+.resume .intro{
+    margin-bottom: 25px;
+}
+.resume p{
+text-indent: 25px;
+}
+.achieve{
+    text-indent: 25px;
+}
+.education ul {
+    list-style: none;
+    margin-left: 30px;
+    list-style-position: outside;
+}
+/*                   SKILLS                  */
+
+.containers{
+    width: 100%;
+    background-color: rgb(175, 171, 171);
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 5;
+    color: white;
+  }
+  
+  .html {width: 80%; background-color: orange;}
+  .Cpp {width: 75%; background-color: #04AA6D;}
+  .css {width: 65%; background-color: #2196F3;}
+  .Csharp {width: 70%; background-color: #f44336;}
+  .php {width: 50%; background-color: #808080;}
+
+  .skillcol{
+      margin-left: 25px;
+ 
+  }

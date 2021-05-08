@@ -2,7 +2,6 @@
 <html lang = "en">
     <head>
         <link rel = stylesheet type = "text/css" href = "css/style.css">
-        <link rel = stylesheet type = "text/css" href = "Vendors/CSS/ionicons.min.css">
         <script src = script.js defer> </script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,10 +25,10 @@
             </a>
             <div class = "navibar-links">
                 <ul>
-                    <li><a href = "index2.html" class = "links">Home</a></li>
+                    <li><a href = "index2.php" class = "links">Home</a></li>
                     <li><a href = "#" class = "links">About Me</a></li>
-                    <li><a href = "#" class = "links">Resume</a></li>
-                    <li><a href = "#" class = "links">My country</a></li>
+                    <li><a href = "Resume files/Resume.php" class = "links">Resume</a></li>
+                    <li><a href = "My country files/MyCountry.php" class = "links">My country</a></li>
                     <li><a href = "#" class = "links">Heritage</a></li>
                 </ul>
             </div>
@@ -114,10 +113,7 @@
                     <a href="https://facebook.com"><i class = "fab fa-twitter"></i></a>                    
                     <a href="https://facebook.com"><i class = "fab fa-telegram"></i></a>                   
                 </div>
-               
-
             </div>
-            
         </div>
         <div class = "col-9 copyright">
             <hr class = "light">

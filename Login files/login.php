@@ -1,52 +1,25 @@
-<?php include_once '../header.php'; 
-include_once 'process.php'; ?>
 <style>
-    <?php include_once 'login.css';
- ?>
+<?php include_once 'login.css';?>
 </style>
-
-<?php
-
-/*
-$host = "localhost";
-$user = "root";
-$password = "";
-$dbh = "accessform";
-$conn = mysqli_connect($host, $user, $password);
-
-mysqli_select_db($conn, $dbh);
-
-if(isset($_POST['user'])){
-    $uname = $_POST['user'];
-    $password = $_POST['pass'];
-
-    $sql = "select * from loginform where user = '".$uname."' AND pass = '".$password."' limit 1";
+<?php include_once 'process.php';?> 
     
-    $result = mysqli_query($conn, $sql);
-    $newURL = "https://google.com";
-    $fail = "login.php";
-
-    if(mysqli_num_rows($result) == 1){
-        header('Location: '.$newURL);
-        exit();
-    }
-    else{
-        header('Location: '.$fail);
-        exit();
-    }
-}
-*/
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "../script.js" defer> </script>
+    <link rel = stylesheet type = "text/css" href = "../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <title>Login</title>
 </head>
 <body>
+<?php include '../navbar.php'; ?>
+
+<section class = "login">
     <div class = "container-fluid center">
         <h1>Login</h1>
         <form action="process.php" method = "POST" autocomplete ="off">
@@ -71,6 +44,8 @@ if(isset($_POST['user'])){
 
 
     </div>
+</section>
+    
 
     
 </body>

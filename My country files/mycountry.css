@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.intro{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rasdashen.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    
+}
+
+.intro .welcome h1{
+    transform: translate(15%, -90%);
+    font-size: 75;
+    opacity: 0.6;
+}
+
+.intro .welcome{
+    margin: 15% auto auto 15%;
+    position: absolute;
+}
+
+.flag img{
+    width: 75%;
+    height: 75%;
+}
+
+.textimg{
+    width: 80%;
+}

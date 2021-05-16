@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Contact me</h2>
+        </div>
+        <form target="_blank" action="http://google.com"
+        method="post" class="form" id = "form" autocomplete="off">
+            <div class="form-control">
+                <label>Name: </label>
+                <input type="text" placeholder="Your name here" id = "username">        
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Email: </label>
+                <input type="email" placeholder="Your email address" id = "email">
+                       
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label class = "newsletter">Do you want my news letter? </label>
+                <br>
+                <label class = "news" for="yes">Yes, please<input type="radio" id = "news" name = "news" value="yes" checked></label>               
+                <label class = "news" for="no">No<input type="radio" id = "news" name = "news" value="no"></label>
+            </div>
+            <div class="form-control message">
+                <label>Drop me a line: </label><br>
+                <textarea name="message" placeholder = "Your message here" id="message" cols="40" rows="6"></textarea>          
+               <br> <small>Error message</small>
+            </div>
+            <input type="submit"></input>
+            <input type="reset"></input>
+        </form>
+    </div>
+</body>
+</html>

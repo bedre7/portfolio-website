@@ -67,12 +67,13 @@
            
         </div>
      
-        
+       
 
     </div>
 
     </section>
-
+    
+    <?php include '../footer.php'; ?>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>

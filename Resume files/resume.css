@@ -8,7 +8,7 @@
 }
 .resume .center{
     position: absolute;
-    top: 54%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -45,7 +45,7 @@ text-indent: 25px;
     margin-left: 30px;
     list-style-position: outside;
 }
-/*                   SKILLS                  */
+/**************SKILLS*****************/
 
 .containers{
     width: 100%;
@@ -56,7 +56,7 @@ text-indent: 25px;
   .skills {
     text-align: right;
     padding-top: 10px;
-    padding-bottom: 5;
+    padding-bottom: 5px;
     color: white;
   }
   

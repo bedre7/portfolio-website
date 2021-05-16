@@ -9,7 +9,7 @@
                 <span class = "bar"></span>
             </a>
             <div class = "navibar-links">
-                <ul>
+                <ul class = "menu">
                     <li><a href = "../index2.php" class = "links">Home</a></li>
                     <li><a href = "#" class = "links">About Me</a></li>
                     <li><a href = "../Resume files/Resume.php" class = "links">Resume</a></li>

@@ -1,7 +1,31 @@
+<?php
+
+    $username = "b191210557";
+    $password = "1234";
+    $incorrect = "";
+
+    $newURL = "https://google.com";
+    $fail = "login.php";
+
+    if(!empty($_POST['user']) && !empty($_POST['pass'])){
+        if($_POST['user'] == $username){
+            if($_POST['pass'] == $password){
+                header("Location: process.php");
+            }
+            else{
+                $incorrect = "incorrect password";
+
+            }
+        }else{
+            $incorrect = "invalid login";
+        }
+    }
+?>
+
 <style>
 <?php include_once 'login.css';?>
 </style>
-<?php include_once 'process.php';?> 
+
     
 <!DOCTYPE html>
 <html lang="en">
@@ -22,31 +46,25 @@
 <section class = "login">
     <div class = "container-fluid center">
         <h1>Login</h1>
-        <form action="process.php" method = "POST" autocomplete ="off">
+        <form method = "POST" autocomplete ="off">
+            <div class = "incorrect"><?php echo $incorrect; ?></div>
             <div class = "txt_field">
                 <input type="text" id = "user" name = "user" required />
                 <span></span>
                 <label for="">Username </label>
-            </div>
+            </div>            
             <div class = "txt_field">  
                <input type="password" id = "pass" name = "pass" required>
                <span></span>
-               <label for="">Password </label>
-               
-            </div>
+               <label for="">Password </label>           
+            </div>            
             <div class="pass">Forgot Password?
             <input type="submit" id = "btn" value = "Login">
-            <span class = "msg"><?php echo $incorrect; ?></span>
-            </div>
-                
-            
+            </div>          
         </form>
-
-
     </div>
 </section>
-    
 
-    
+    <?php include '../footer.php'; ?>
 </body>
 </html>

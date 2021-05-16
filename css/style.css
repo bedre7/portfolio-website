@@ -130,6 +130,7 @@ html, body {
 }
 
 @media(max-width: 600px){
+    
     .toggle-button{
         display: flex;
     }
@@ -155,6 +156,7 @@ html, body {
         display: flex;
     }
 } 
+
 /*---------------------------------------------------*/
 /* REUSABLE COMPONENTS */
 /*---------------------------------------------------*/
@@ -223,7 +225,7 @@ section{/*whitespace*/
 /*---------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(../img/keyboard.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(../img);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -233,11 +235,74 @@ header {
 /* FOOTER */
 /*---------------------------------------------------*/
 
-.social a{
-    font-size: 3.5em;
-    padding: 2rem;
+footer{
+    background-color: #383838;
+    padding-bottom: 0px;
+    border: solid;
 }
-.fa-facebook{
+
+.footer-nav li{
+    list-style: none;
+    float: left;
+}
+.social-links li{
+    list-style: none;
+    float: right;
+}
+.social-links li a{
+    text-decoration: none;
+    color:white;
+    padding: 1.6rem;
+    display: block;  
+}
+.footer-nav li,
+.social-links li{
+    display: block;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{ 
+    text-decoration: none;
+    border: 0;
+    color: #5f5f5f;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+.footer-nav li a{
+    font-size: large;
+    padding: 1rem;
+}
+.footer-nav p{
+    color: #ddd;
+    text-align: center;
+    font-size: 30%;
+}
+
+.cpr{
+    color: #5f5f5f;
+    text-align: center;
+    font-size:medium;
+    margin: 0 auto;
+}
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 200%;
+}
+
+first:hover{
+    color: #fff;
+}
+
+.fa-facebook-square{
     color: #4267B2;
 }
 .fa-twitter{
@@ -250,49 +315,10 @@ header {
     color:#0088cc;
 }
 
-.fa-facebook:hover,
+.fa-facebook-square:hover,
 .fa-instagram:hover,
 .fa-telegram:hover,
 .fa-twitter:hover{
     color: #d5d5d5;
     transition: color 0.5s;
 }
-
-footer{
-    background-color: #3f3f3f;
-    color: #d5d5d5;
-    padding-top: 0rem;
-    
-}
-
-footer h1{
-    color:cyan;
-    float: left;
-    margin: 0 2rem;
-}
-
-.copyright{
-    text-align: center;
-}
-
-.fa-map-marker-alt, .fa-mobile-alt, .fa-envelope {
-    color: #fd7474;
-    font-size: 3rem;
-    transform: translate(-5%, 35%);
-}
-.fa-map-marker-alt{
-    transform: translateX(-75%);
-}
-.fa-mobile-alt{
-    transform: translate(-60%, 30%);
-}
-.fa-envelope{
-    transform: translate(0, 55%);
-}
-footer span{
-    margin: .5rem;
-    width: 100%;
-    height: 75%;
-}
-
-

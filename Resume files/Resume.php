@@ -35,12 +35,12 @@
 
             <h2><ion-icon name="ribbon-outline"></ion-icon> &nbsp Achievements</h2><br>
             <ul class="fa-ul">
-                <li><i class="fas fa-chevron-right"></i>&nbsp Took the 252<sup>nd</sup> place in the university entrance national examination out of 280,000 students.</li><br>
+                <li><i class="fas fa-chevron-right"></i>&nbsp Took 252<sup>nd</sup> place in the university entrance national examination out of 280,000 students.</li><br>
                 <li><i class="fas fa-chevron-right"></i>&nbsp Won full scholarship in Turkey TR which had 5% of acceptance rate globally.</li><br>
-                <li><i class="fas fa-chevron-right"></i>&nbsp Participated in Ethiopian Spelling Bee contest and made it to the final.</li><br>
+                <li><i class="fas fa-chevron-right"></i>&nbsp Participated in Ethiopian Spelling Bee contest back in 2013 and made it to the final.</li><br>
             </ul>
         </div>
-        <div class="col-md-3 col-lg-3 col-sm-6 skillcol">
+        <article class="col-md-3 col-lg-3 col-sm-6 skillcol">
             <h4><ion-icon name="shield-checkmark-outline"></ion-icon> &nbspProgramming Skills</h4>
             <p>C++</p>
              <div class="containers">
@@ -65,7 +65,7 @@
                <div class="skills php"></div>
            </div>
            
-        </div>
+        </article>
      
        
 

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    overflow-x: initial !important;
+    overflow-x: hidden; 
+}
+
+.intro{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/desk.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    background-attachment: fixed;
+}
+
+
+.intro .welcome h1{
+    transform: translate(40%, -410%);
+    font-size: 500%;
+    font-weight: 700;
+    opacity: 0.7;
+    color: black;
+    text-transform: uppercase;
+}
+.intro .welcome{
+    margin: 15% auto auto 15%;
+    position: absolute;
+}
+
+.intro h1:after{
+    display: block;
+    height: 2px;
+    background-color: #fd7474;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.featurette-divider {
+    margin: 5rem 0; 
+  }
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.featurette{
+    border: solid gray;
+    border-radius: 25px;
+    border-style: groove;
+    width: 70%;
+    transform: translate(15%, 100%);
+    background-color:rgb(109, 108, 108);
+    opacity: .9;
+}
+
+.featurette img{
+    border-radius: 25px;
+    filter: brightness(100%);
+}
+
+.featurette p{
+    font-size:medium;
+}
+.featurette h2{
+   font-weight: 500;
+   transform: scale(1.5);
+   margin-left: 25%;
+}
+
+.featurette p,
+.featurette h2{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: white;
+    font-weight: 200;
+    font-size: 160%;
+}
+
+.painting{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/painting.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    margin-top: -3%;
+}
+
+.painting h1{
+    width: 80%;
+    margin-left: 5%;
+    color: white;
+    opacity: 0.6;
+    transform: translate(50%, 900%);
+    font-size: 400%;
+}
+
+.heading h1{
+    margin-top: 10%;
+    text-align: center;
+    color: black;
+}
+
+.heading h1:after{
+    display: block;
+    height: 2px;
+    background-color: #fd7474;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 50px;
+}
+
+.section-more{
+    padding: 0;
+}
+.meals-showcase{ 
+    list-style: none;
+    width:100%;
+}
+.meals-showcase li{
+    display: block;
+    float:left;
+    width:25%;
+}
+
+.meal-photo{
+    width:100%;
+    margin:0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img{
+    opacity: 0.75;
+    width: 100%;
+    height:auto;
+    transform: scale(1.03);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+.api{
+    margin-bottom: 15%;
+}
+
+@media (max-width: 992px){
+    .intro .welcome h1{
+        transform: translate(15%, -150%);
+        font-size: 500%;
+        font-weight: 500;
+    }
+    .intro img{
+        margin-left: 15%;
+    }
+    .featurette{
+        height: 1000px;
+    }
+    .intro{
+        height: 260vh;
+    }
+    .featurette{
+        transform: translate(15%, 60%);
+    }
+}
+
+@media (max-width: 800px) {
+    .intro .welcome h1{
+        transform: translate(25%, 100%);
+        font-size: 400%;
+        font-weight: 500;
+    }
+    .featurette{
+        transform: translate(15%, 60%);
+    }
+    .intro img{
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro .welcome h1{
+        transform: translate(25%, 100%);
+        font-size: 400%;
+        font-weight: 500;
+    }
+    *{
+        font-size: 90%;
+    }
+    .featurette{
+        height: 50%;
+    }
+    .intro img{
+        margin-left: 10%;
+    }
+}
+

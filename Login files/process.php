@@ -18,7 +18,7 @@
 <?php include '../navbar.php'; ?>
 
 <section class = "login">
-    <div class = "container-fluid center" style = "height: 250px; transform: translate(-50%, -80%);">
+    <div class = "container-fluid center" style = "height: 250px; transform: translate(-50%, -60%);">
         <h1 style = "color:green;"> Welcome user b191210557!!!</h1><br>
         <a href = "login.php" class = "btn btn-info btn-lg" style = "margin-left: 35%;">Log out</a>
     </div>

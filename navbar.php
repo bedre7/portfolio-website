@@ -1,6 +1,6 @@
 
 <nav class = "navibar">
-            <div class = "brand-title"><p>Ethiopix</p></div>
+            <div class = "brand-title"><p></p></div>
             <a href ="#" class = "toggle-button">
                 <span class = "bar"></span>
                 <span class = "bar"></span>

@@ -1,11 +1,8 @@
 <?php
 
-    $username = "b191210557";
+    $username = "b191210557@sakarya.edu.tr";
     $password = "1234";
     $incorrect = "";
-
-    $newURL = "https://google.com";
-    $fail = "login.php";
 
     if(!empty($_POST['user']) && !empty($_POST['pass'])){
         if($_POST['user'] == $username){
@@ -49,7 +46,7 @@
         <form method = "POST" autocomplete ="off">
             <div class = "incorrect"><?php echo $incorrect; ?></div>
             <div class = "txt_field">
-                <input type="text" id = "user" name = "user" required />
+                <input type="email" id = "user" name = "user" required />
                 <span></span>
                 <label for="">Username </label>
             </div>            

@@ -9,10 +9,9 @@
                 </div>
                 <div class = "col-lg-6 col-md-6">
                     <ul class = "social-links">                       
-                        <li><a href = "#" class="second"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href = "#" class="third"><i class = "fab fa-telegram"></i></a></li>
-                        <li><a href = "#" class="fourth"><i class="fab fa-instagram"></i></ion-icon></a></li>
-                        <li><a href = "#" class="first"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href = "https://t.me/Bedru7" class="third"><i class = "fab fa-telegram"></i></a></li>
+                        <li><a href = "https://www.instagram.com/bedru397/" class="fourth"><i class="fab fa-instagram"></i></ion-icon></a></li>
+                        <li><a href = "https://www.facebook.com/bedru.umer.1/" class="first"><i class="fab fa-facebook-square"></i></a></li>
                     </ul>
                 </div>
             </div>

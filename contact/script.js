@@ -37,12 +37,10 @@ function checkInputs(){
     }else{
         setSuccessFor(message);
     }
-
     //showing success
    // alert("Form submitted successfully!");
     
     //confirm();
-    this.submit();
 }
 function setErrorFor(input, message){
     const formControl = input.parentElement;// .form-control
@@ -71,4 +69,4 @@ function confirm(){
     nameC.innerText = usernameValue;
     emailC.innerText = emailValue;
     messageC.innerText = messageValue;
-}
+};

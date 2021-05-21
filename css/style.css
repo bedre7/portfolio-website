@@ -9,10 +9,15 @@
 /* BASIC SETUP */
 /*---------------------------------------------------*/
 
+.brand-title{
+    font-family: 'Niconne';
+    color: #fd7474;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .site-wrap {overflow-x:hidden}
 *,
@@ -26,7 +31,6 @@
 html{
     background-color: #ffffff;
     color: #fff;
-    font-family: 'lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size : 20px;
     text-rendering: optimizeLegibility;
@@ -44,10 +48,7 @@ html, body {
 /*---------------------------------------------------*/
 /* RESPONSIVE NAVBAR */
 /*---------------------------------------------------*/
-.brand-title{
-    font-family: 'Niconne';
-    color: #fd7474;
-}
+
 .navibar{
     top: 0;
     width: 100%;
@@ -121,41 +122,15 @@ html, body {
     justify-content: space-between;
     width: 30px;
     height: 20px;
+    transition: .5sec;
 }
 .toggle-button .bar{
     height: 3px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
+    transition: .5sec;
 }
-
-@media(max-width: 600px){
-    
-    .toggle-button{
-        display: flex;
-    }
-    .navibar-links{
-        display: none;
-        width: 100%;
-    }
-    .navibar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navibar-links ul{
-        flex-direction: column;
-        width: 100%;
-    }
-    .navibar-links li{
-        text-align: center;
-    }
-    .navibar-links li a{
-        padding: .5rem 1rem;
-    }
-    .navibar-links.active{
-        display: flex;
-    }
-} 
 
 /*---------------------------------------------------*/
 /* REUSABLE COMPONENTS */
@@ -172,13 +147,23 @@ section{/*whitespace*/
 /*---------------------------------------------------*/
 .welcome{
     transform: translate(15%, 150%);
-    color: #fff;
 }
-
+.welcome h1{
+color: white;
+}
 .welcome a{
     border-radius: 30px;
     margin: 1.5% 1rem;
+    transform: translate(15%, 400%);
 }
+
+.typing{
+    color: darkgray;
+    font-size: 300%;
+    transform: translate(15%, 250%);
+    /*transition: 10.5s;*/
+}
+
 /*---------------------------------------------------*/
 /* ABOUT_ME */
 /*---------------------------------------------------*/
@@ -207,6 +192,11 @@ section{/*whitespace*/
 
 .about-me .essay{
     padding-left: 50px;
+    line-height: 2.1rem;
+}
+
+.essay a{
+    float: right;
 }
 /********** CAROUSEL *********/
 .about-me img{
@@ -225,10 +215,11 @@ section{/*whitespace*/
 /*---------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(../img);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../img/railway.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 /*---------------------------------------------------*/
@@ -298,16 +289,14 @@ footer{
     font-size: 200%;
 }
 
-first:hover{
+.first:hover{
     color: #fff;
 }
 
 .fa-facebook-square{
     color: #4267B2;
 }
-.fa-twitter{
-    color: #00aced;
-}
+
 .fa-instagram{
     color: RGB(193,53,132);
 }
@@ -317,8 +306,60 @@ first:hover{
 
 .fa-facebook-square:hover,
 .fa-instagram:hover,
-.fa-telegram:hover,
-.fa-twitter:hover{
+.fa-telegram:hover{
     color: #d5d5d5;
     transition: color 0.5s;
+}
+
+/***********************RESPONSIVENESS************************/
+
+@media(max-width: 992px){
+    .vl{
+        border-left: 0px;
+    }
+}
+@media(max-width: 860px){
+    
+    .toggle-button{
+        display: flex;
+        transition: .5sec;
+    }
+    .navibar-links{
+        display: none;
+        width: 100%;
+    }
+    .navibar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navibar-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navibar-links li{
+        text-align: center;
+    }
+    .navibar-links li a{
+        padding: .5rem 1rem;
+    }
+    .navibar-links.active{
+        display: flex;
+    }
+} 
+
+@media (max-width: 768px) {
+    .about-me h1 {
+      font-size: 150%;
+    }
+    .typing{
+        font-size: 250%;
+        transform: translate(15%, 280%);   
+    }
+}
+
+@media (max-width: 600px){
+    .typing{
+        font-size: 150%;
+        transform: translate(10%, 280%);   
+    }
 }

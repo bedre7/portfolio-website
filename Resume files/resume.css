@@ -8,7 +8,7 @@
 }
 .resume .center{
     position: absolute;
-    top: 75%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -23,7 +23,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(../img/bg_resume.jpg);
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 110vh;
 }
 
 .resume h1{
@@ -68,5 +68,15 @@ text-indent: 25px;
 
   .skillcol{
       margin-left: 25px;
- 
+  }
+
+  @media (max-width: 992px) {
+
+     .resume{
+         height: 210vh;
+     }
+     .resume .center{
+         height: 160%;
+         top: 115%;
+     }
   }

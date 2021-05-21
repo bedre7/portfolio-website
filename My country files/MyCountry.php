@@ -35,10 +35,10 @@
 		  <div class="col-lg-6 description vl">
 		 	<h2>My Country...</h2>
             <hr>
-			<p>Ethiopia, in the Horn of Africa, is a rugged, landlocked country split by the Great Rift Valley. With archaeological finds dating back more 
-                than 3 million years, it’s a place of ancient culture. </p>
-                <p> Ethiopia has a total area of 1,100,000 square kilometres and over 109 million inhabitants, making it the 13th-most 
-                    populous country in the world and the 2nd-most populous in Africa. The national capital and largest city is Addis Ababa.</p>
+			<p>Ethiopia, in the Horn of Africa, is a rugged, landlocked country split by the Great Rift Valley. With archaeological
+         finds dating back more  than 3 million years, it’s a place of ancient culture. </p>     
+     <p> Ethiopia has a total area of 1,100,000 square kilometres and over 109 million inhabitants, making it the 13th-most 
+        populous country in the world and the 2nd-most populous in Africa. The national capital and largest city is Addis Ababa.</p>
 			<br>			
 		</div>
 	   </div>
@@ -115,6 +115,7 @@
 <footer>
 
 </footer>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </body>

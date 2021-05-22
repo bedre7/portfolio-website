@@ -66,7 +66,7 @@
             There are several ruins in the ancient city that include royal tombs, ancient castle ruins, monolithic obelisks, and giant stelae.</p>
       </div>
       <div class="col-md-5">
-        <img src="../img/axum.jpg" width="400" height="400">
+        <img src="../img/axum.jpg" width="400" height="auto">
 
       </div>
     </div>
@@ -75,7 +75,7 @@
 
     <div class="row featurette">
         <div class="col-md-5 order-md-1">
-            <img src="../img/fasil.jpg" width="400" height="400">
+            <img src="../img/fasil.jpg" width="400" height="auto">
           </div>
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Fasil Ghebbi<span class="muted"> ፋሲል ግቢ</span></h2>
@@ -92,7 +92,7 @@
         <p class="lead">Located in the town of Wukro, 790 kilometers (over 490 miles) north of Ethiopia's capital Addis Ababa, Al-Nejashi is said to be the first mosque in Africa. It is named after Nejashi, who hosted companions of the Prophet who escaped persecution in Mecca. </p>
       </div>
       <div class="col-md-5">
-        <img src="../img/nejashi.jpeg" width="400" height="400">
+        <img src="../img/nejashi.jpeg" width="400" height="auto">
 
       </div>
     </div>
@@ -100,7 +100,7 @@
     <hr class="featurette-divider">
     <div class="row featurette">
         <div class="col-md-5">
-            <img src="../img/lalibela.jpg" width="400" height="400">
+            <img src="../img/lalibela.jpg" width="400" height="auto">
     
           </div>
         <div class="col-md-7">
@@ -112,11 +112,11 @@
     </section>
 
         <!---------------------------VIDEO------------------------------->
-        <section class = "last">
+        <section class = "last row">
         <div class="col-lg-8 heading"><br>
       <h1>What's more?</h1>
     </div>
-    <div class="youtube-vid col-lg-7 col-md-9 col-sm-9 col-xs-9">
+    <div class="youtube-vid col-lg-7 col-md-9 col-sm-9 col-xs-8">
       <div class="embed-responsive embed-responsive-16by9">
           <iframe  class = "embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/VX0VfJFQrlA?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; 
           autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src = "../script.js" defer> </script>
+    <link rel = stylesheet type = "text/css" href = "../css/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
       * {
@@ -11,15 +13,16 @@
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
-        font-weight: 200;
+        font-weight: 300;
+        color: black;
       }
       h1 {
         color: blue;
       }
       .read-more {
         background-image: linear-gradient(
-            rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
           ),
           url(../img/nile.jpg);
         background-size: cover;
@@ -55,10 +58,53 @@
         margin-left: 5%;
         font-size: large;
       }
+      @media (max-width:1200px){
+        .read-more .center {
+          height: 85%;
+          transform: translate(-50%, -30%);
+        }
+        .read-more{
+          height: 150vh;
+        }
+      }
+      @media (max-width:900px){
+        .read-more .center {
+          height: 95%;
+        }
+        .read-more{
+          height: 180vh;
+        }
+        .read-more p{
+          font-size:medium;
+        }
+      }
+      @media (max-width:860px){
+        .read-more .center {
+          transform: translate(-50%, -10%);
+        }
+      }
+      @media (max-width:768px){
+        .read-more .center {
+          height: 110%;
+        }
+        .read-more{
+          height: 200vh;
+        }
+        .read-more p{
+          font-size:medium;
+        }
+      }
+      @media (max-width:600px){
+
+        .read-more p{
+          font-size:small;
+        }
+      }
     </style>
     <title>Nile River</title>
   </head>
   <body>
+  <?php include '../navbar.php'; ?>
     <section class="read-more">
       <div class="container-fluid center">
         <div class="col-12"><br>

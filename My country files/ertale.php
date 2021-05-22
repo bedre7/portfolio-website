@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,11 +27,11 @@
           url(../img/ertale.jpg);
         background-size: cover;
         background-position: center;
-        height: 150vh;
+        height: 110vh;
       }
       .read-more .center {
         position: absolute;
-        top: 65%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
@@ -62,7 +61,7 @@
       @media (max-width:1200px){
         .read-more .center {
           height: 115%;
-          transform: translate(-50%, 5%);
+          transform: translate(-50%, -30%);
         }
         .read-more{
           height: 180vh;
@@ -79,7 +78,11 @@
           font-size:medium;
         }
       }
-
+      @media (max-width:860px){
+        .read-more .center {
+          transform: translate(-50%, -10%);
+        }
+      }
       @media (max-width:768px){
         .read-more .center {
           height: 135%;

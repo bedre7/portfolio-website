@@ -50,22 +50,22 @@
         </div>
   
         <ul class="meals-showcase">
-            <li>
+            <li class = "col-xs-6">
                 <figure class="meal-photo">
                     <img src ="../img/pg1.jpg">
                 </figure>
             </li>
-            <li>
+            <li class = "col-xs-6">
                 <figure class="meal-photo">
                     <img src ="../img/pg2.jpg">
                 </figure>
             </li>
-            <li>
+            <li class = "col-xs-6">
                 <figure class="meal-photo">
                     <img src ="../img/pg3.jpg">
                 </figure>
             </li>
-            <li>
+            <li class = "col-xs-6">
                 <figure class="meal-photo">
                     <img src ="../img/pg5.jpg">
                 </figure>

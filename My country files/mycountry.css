@@ -5,13 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-}
 html {
-  overflow-x: initial !important;
+  overflow-x: hidden;
 }
 .intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/mesobs.JPG);
   background-size: cover;
   background-position: center;
@@ -19,9 +17,11 @@ html {
 }
 
 .intro .welcome h1 {
-  transform: translate(15%, -90%);
-  font-size: 75;
+  transform: translate(0%, -10%);
+  font-size: 500%;
+  font-weight: 700;
   opacity: 0.6;
+  text-transform: uppercase;
 }
 
 .intro .welcome {
@@ -229,8 +229,18 @@ html {
 
 
 /************************ RESPONSIVENESS*******************************/
+@media (max-width: 1200px) {
+  .intro .welcome h1 {
+    transform: translate(-5%, -10%);
+    font-size: 400%;
+  }
+}
 
 @media (max-width: 992px) {
+  .intro .welcome h1 {
+    transform: translate(0%, -10%);
+    font-size: 300%;
+  }
   .vl {
     border-left: 0px solid gray;
   }
@@ -241,6 +251,10 @@ html {
 }
 
 @media (max-width: 768px) {
+  .intro .welcome h1 {
+    transform: translate(0%, -10%);
+    font-size: 250%;
+  }
   .slider h1,
   .extra h1,
   .section-more h1,
@@ -275,5 +289,28 @@ html {
   .ceremony,
   .athletics {
     border:  0px;
+  }
+}
+
+@media (max-width: 450px){
+  .intro .welcome h1 {
+    transform: translate(-15%, -10%);
+    font-size: 200%;
+  }
+  .album img {
+    width: 300px;
+    height: auto;
+  }
+  .featurette{
+    width: 70%;
+    transform: translateX(2%);
+  }
+  .featurette img{
+    width: 350px;
+    height: auto;
+  }
+  .featurette iframe{
+    width: 370px;
+    height: auto;
   }
 }

@@ -59,6 +59,7 @@ html, body {
     align-items: center;
     background-color:rgba(0, 0, 0, 0.3);
     color: white;
+    z-index: 9999;
 }
 
 .brand-title p{
@@ -107,7 +108,13 @@ html, body {
 .navibar-links li a:hover::after{
     width: 100%;
 }
+
 .navibar-links li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s, transform 0.5s;
+    transform: scale(1.02);
+}
+.navibar-links li:active{
     background-color: rgba(0, 0, 0, 0.3);
     transition: background-color 0.2s, transform 0.5s;
     transform: scale(1.02);
@@ -159,7 +166,8 @@ color: white;
 
 .typing{
     color: darkgray;
-    font-size: 300%;
+    font-size: 350%;
+    font-weight:600;
     transform: translate(15%, 250%);
     /*transition: 10.5s;*/
 }
@@ -351,15 +359,22 @@ footer{
     .about-me h1 {
       font-size: 150%;
     }
+    .welcome{
+        transform: translate(15%, 200%);
+    }
     .typing{
-        font-size: 250%;
-        transform: translate(15%, 280%);   
+        font-size: 200%;
+        transform: translate(10%, 300%);   
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 660px){
+    .welcome{
+        transform: translate(15%, 220%);
+    }
     .typing{
-        font-size: 150%;
-        transform: translate(10%, 280%);   
+        font-size: 180%;
+        transform: translate(10%, 250%);   
     }
 }
+

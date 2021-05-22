@@ -117,3 +117,21 @@ html{
         margin-top: -15%;
     }
 }
+@media (max-width: 450px){
+    .featurette{
+      width: 70%;
+      transform: translateX(2%);
+    }
+    .featurette img{
+      width: 350px;
+      height: auto;
+    }
+    .intro .welcome h1{
+        transform: translate(15%, -90%);
+    }
+    .last{
+        width: 350px;
+        height: auto;
+
+    }
+  }

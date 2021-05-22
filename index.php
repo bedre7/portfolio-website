@@ -4,6 +4,7 @@
         <link rel = stylesheet type = "text/css" href = "css/style.css">
         <script src = script.js defer> </script>
         <script src = "https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        <link rel="shortcut icon" href="img/favicon.jpg">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,11 +24,11 @@
             </a>
             <div class = "navibar-links">
                 <ul class = " navbar-nav mr-auto">
-                    <li><a href = "index2.php" class = "links">Home</a></li>
-                    <li><a href = "#" class = "links">About Me</a></li>
+                    <li><a href = "index.html" class = "links">Home</a></li>
+                    <li><a href = "#" class = "links js--scroll-to-aboutme">About Me</a></li>
                     <li><a href = "Resume files/Resume.php" class = "links">Resume</a></li>
-                    <li><a href = "My country files/MyCountry.php" class = "links">My country</a></li>
-                    <li><a href = "#" class = "links">Heritage</a></li>
+                    <li><a href = "My country files/mycountry.php" class = "links">My country</a></li>
+                    <li><a href = "heritage/heritage.php" class = "links">Heritage</a></li>
                 </ul>
             </div>
 
@@ -38,11 +39,11 @@
             <div class = "row welcome">
                 <div class = "typing"></div> 
                 <a  href ="Login files/login.php" class = "btn btn-primary btn-lg" href="#">Log In</a>
-                <a  class = "btn btn-default btn-lg" href="#">Contact</a>
+                <a  class = "btn btn-default btn-lg" href="contact/contact.php">Contact</a>
             </div>
         </div>
       </header>
-        <section class = "about-me">
+        <section class = "about-me js--section-aboutme">
             <div class = "container-fluid padding">
                 <div class="col-12 padding heading">
                     <h1>Who am I?</h1>  
@@ -74,12 +75,12 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-sm-12 essay vl">           
                         <h2>Don't read this...</h2><br>
-                        <p>Hi there, This is Bedru from Ethiopia. Hold on, did you just break the very first rule? Boo! 
+                        <p>Hi there, This is Bedru from Ethiopia. Now that I got your attention, let me tell you more.
                             So back to my story, I'm a 21 year old international student in Turkey. Currently at my first year of univeristy doing a degree in computer engineering.</p>
                         <p>In my leisure time I like coding&#128187, playing video games&#127918 and sometimes painting&#127912.</p>
-                        <p>Ping pong&#127955, photography&#128247 and last but not least archery🎯(more on that later) are my favorite activities.</p>
+                        <p>Ping pong&#127955, photography&#128247 and last but not least archery &#127993 are my favorite activities.</p>
                         <br>
-                        <a href="interests/interests.html" class="btn btn-info">My interests</a>
+                        <a href="interests/interests.php" class="btn btn-info">My interests</a>
                     </div>
                   
                 </div>
@@ -92,9 +93,9 @@
             <div class = "row">
                 <div class = "col-lg-6">
                     <ul class = "footer-nav">
-                        <li><a href = "index2.php">Home</a></li>
+                        <li><a href = "index.html">Home</a></li>
                         <li><a href = "#">About me</a></li>
-                        <li><a href = "#">contact</a></li>
+                        <li><a href = "contact/contact.php">contact</a></li>
                     </ul>
                 </div>
                 <div class = "col-lg-6 col-md-6">
@@ -115,6 +116,7 @@
         <!-- JS scripts -->
      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     </body>
 
 

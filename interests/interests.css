@@ -9,7 +9,6 @@
 
 html{
     overflow-x: initial !important;
-    overflow-x: hidden; 
 }
 
 .intro{
@@ -196,6 +195,10 @@ html{
 }
 
 @media (max-width: 768px) {
+    .heading h1,
+    .api h1{
+      font-size: 150%;
+    }
     .intro .welcome h1{
         transform: translate(25%, 100%);
         font-size: 400%;
@@ -211,4 +214,22 @@ html{
         margin-left: 10%;
     }
 }
-
+@media (max-width: 450px){
+    .intro .welcome h1 {
+      transform: translate(-5%, -10%);
+      font-size: 250%;
+    }
+    .featurette{
+        height: 800px;
+    }
+    .painting h1{
+        margin-left: 5%;
+        color: white;
+        opacity: 0.6;
+        transform: translate(6%, 900%);
+        font-size: 500%;
+    }
+    .intro{
+        height: 200vh;
+    }
+}

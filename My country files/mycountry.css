@@ -14,6 +14,7 @@ html {
   background-size: cover;
   background-position: center;
   height: 120vh;
+  background-attachment: fixed;
 }
 
 .intro .welcome h1 {

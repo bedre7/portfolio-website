@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src = "../script.js" defer> </script>
     <link rel = stylesheet type = "text/css" href = "../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
       * {
@@ -85,7 +87,7 @@
       }
       @media (max-width:768px){
         .read-more .center {
-          height: 110%;
+          height: 100%;
         }
         .read-more{
           height: 200vh;
@@ -110,7 +112,7 @@
         <div class="col-12"><br>
           <h1>Nile river</h1>
         </div>
-        <div class="col-lg-8 intro">
+        <div class="intro">
           <p>
             The Nile is a major
             north-flowing river in northeastern Africa. The longest river in

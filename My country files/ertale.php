@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src = "../script.js" defer> </script>
     <link rel = stylesheet type = "text/css" href = "../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
       * {
@@ -60,7 +62,7 @@
       }
       @media (max-width:1200px){
         .read-more .center {
-          height: 115%;
+          height: 100%;
           transform: translate(-50%, -30%);
         }
         .read-more{
@@ -68,9 +70,6 @@
         }
       }
       @media (max-width:900px){
-        .read-more .center {
-          height: 120%;
-        }
         .read-more{
           height: 200vh;
         }
@@ -85,7 +84,7 @@
       }
       @media (max-width:768px){
         .read-more .center {
-          height: 135%;
+          height: 120%;
         }
         .read-more{
           height: 200vh;
@@ -96,7 +95,7 @@
       }
       @media (max-width:600px){
         .read-more .center {
-          height: 120%;
+          height: 105%;
         }
         .read-more p{
           font-size:small;
@@ -114,7 +113,7 @@
           <br />
           <h1>Erta Ale Volcano</h1>
         </div>
-        <div class="col-lg-8 intro">
+        <div class="intro">
           <p>
             Erta Ale is 613 metres (2,011 ft) high, with one or sometimes two
             active lava lakes at the summit which occasionally overflow on the

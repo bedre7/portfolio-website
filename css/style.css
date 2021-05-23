@@ -378,3 +378,8 @@ footer{
     }
 }
 
+@media (max-width: 450px){
+    .typing{
+        transform: translate(0%, 250%);   
+    }
+}

@@ -7,6 +7,7 @@
     <script src = "../script.js" defer> </script>
     <link rel = stylesheet type = "text/css" href = "../css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
       * {
@@ -38,7 +39,7 @@
         width: 80%;
         background: rgb(216, 214, 214);
         border-radius: 10px;
-        height: 70%;
+        height: 60%;
         font-family: montserrat;
         font-weight: 500;
       }
@@ -61,7 +62,7 @@
       }
       @media (max-width:1200px){
         .read-more .center {
-          height: 85%;
+          height: 80%;
           transform: translate(-50%, -30%);
         }
         .read-more{
@@ -70,7 +71,7 @@
       }
       @media (max-width:900px){
         .read-more .center {
-          height: 95%;
+          height: 85%;
         }
         .read-more{
           height: 180vh;

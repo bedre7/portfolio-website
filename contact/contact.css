@@ -174,3 +174,8 @@ label .news{
         height: 135vh;
     }
   }
+@media (max-width:450px){
+    .contact{
+        height: 160vh;
+    }
+}

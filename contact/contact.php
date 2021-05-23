@@ -22,6 +22,7 @@ if (!empty($_POST['username']) && !empty($_POST['email']) && !empty($_POST['mess
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="script.js" defer></script>
 <script src = "../script.js" defer> </script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 

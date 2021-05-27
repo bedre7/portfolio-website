@@ -2,6 +2,8 @@
 Personal website project
 Website Project
 
+Website link: 1, https://b191210557.000webhostapp.com/
+              2, http://b191210557.infinityfreeapp.com/
 
 This is a project website under development about me and my country, Ethiopia. 
 A newly created html document and CSS file of the project is uploaded to my GitHub account for now.  The content of the website is explained briefly as follows…
